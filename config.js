@@ -1,12 +1,12 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: ["UserID", "UserID"], 841739836238463039//Admins of the bot
   ExpressServer: true,//If you wanted to make the website run or not
-  DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
+  DefaultPrefix: process.env.Prefix || "!", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  Token: process.env.Token || "ODc3MDg2NDg3NzM5NTA2Njk5.YRtgcg.ChLnLa0cRX2VYYxZ6PLxgsrhtVg", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "877086487739506699", //Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "8pAtvFZ17fgfD_oKu52UbVqidkzZYFZQ", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
   "24/7": false, //If you want the bot to be stay in the vc 24/7
